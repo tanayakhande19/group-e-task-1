@@ -1,0 +1,138 @@
+.nav-full{
+    background-color: rgb(35, 10, 10);
+    
+}
+
+.nav-full li{
+    float: left;
+    list-style: none;
+    padding: 26px 30px;
+    
+   
+}
+.ftr{
+    float: left;
+    list-style: none;
+    padding: 26px 30px;
+}
+
+ul{
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+input{
+    margin: 24px;
+    border: none;
+    padding: 5px 20px 5px 10px;
+    text-align: center;
+}
+.search{
+    width: 23px;
+    margin-top: 25px;
+    background-color: white;
+    margin-bottom: -7px;
+    margin-left: -23px;
+}
+.background-img-text{
+    font-stretch: expanded;
+    position: relative;
+    margin-top: -660px;
+    left: 300px;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color:black;
+}
+h2{
+    margin-top: -400px;
+    padding-left: 90px;
+    color: darkred;
+}
+
+
+
+
+.page2-container{
+    margin-top: 600px;
+    display: flex;
+   position: relative;
+   justify-content: space-between;
+  background-color: rgb(255, 102, 0);
+}
+.rose{
+    height: 110px;
+}
+.rating-image{
+    height: 20px;
+    margin-top: 5px;
+}
+.flower{
+    width: 200px;
+    padding-right: 0px;
+    margin-top: -300px;
+    border: 2px solid #003300;
+    box-shadow: #b8b894;
+
+}
+.img-btn{
+    margin-top: -500px;
+    color: white;
+    background-color: green;
+    padding: 5px 15px 5px 15px;
+    font-size: 25px;
+    border-radius: 25px;
+}
+h3{
+    margin-left: 0px;
+}
+.price{
+    margin-left: 10px;
+    color: #cc0099;
+    position: relative;
+    bottom: 5px;
+}
+.buy{
+    border: none;
+    background-color:#ff0000;
+    font-size: 15px;
+    padding: 5px 62px 5px 62px;
+     border: 1px solid black;
+}
+.buy:hover{
+    border:solid 2px blue;
+    background-color: pink;
+}
+.cart{
+    margin-top: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: Lime;
+    padding: 5px 55px 5px 55px;
+}
+.cart:hover{
+    border:solid 2px red;
+    background-color: yellow;
+}
+.background-img{
+    background: linear-gradient(rgba(9, 1, 1, 0.6),rgba(9, 1, 1, 0.3)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_8_vfqsfWuBFns6v8_cqziwBO6APzO-mlVw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: -36px;
+}
+.footer-txt{
+    color: black;
+    text-decoration: none;
+}
+footer{
+    background-color: #ff4d94;
+    font-weight: bold;
+}
